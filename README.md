@@ -10,7 +10,7 @@ The purpose of this project is to implement what I have learned in web automatio
 - Page Object Model (POM) for maintainability
 - TestNG for test execution and reporting
 - Maven for dependency management
-- Configurable test execution
+- Configurable test execution using Y and N run mode
 - Logging and reporting capabilities
 - Data Driven Testing (DDT)
 - Extent Reports for test reporting
