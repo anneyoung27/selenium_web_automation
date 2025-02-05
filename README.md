@@ -38,15 +38,20 @@ src/
 │   │       └── runner/
 └── pom.xml                      # Maven configuration
 ```
-### Project URL
+### 1. Project URL
 ```https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login```
 
-### UI Test
+### 2. UI Test
 The UI tests cover the functionality of the website, focusing on key features such as:
 - Login
   - Bank Manager Login
   - Add Customer
   - Open Account
+ 
+### 3. Viewwing the reports
+The test reports can be found in:
+```./reports```
+The report will be generated upon execution and will include screenshots if any failures occur during the testing process.
 
 ## Installation
 1. Clone this repository:<br />
