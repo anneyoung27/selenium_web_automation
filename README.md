@@ -15,8 +15,7 @@ The purpose of this project is to implement what I have learned in web automatio
 - Data Driven Testing (DDT)
 - Extent Reports for test reporting
 
-## Tech stacks used
-Use the following:
+## Technologies
 - Java 21
 - Apache Maven
 - Selenium
@@ -24,6 +23,21 @@ Use the following:
 - ExtentReport
 
 ## Project Structure
+```
+src/
+├── test/
+│   ├── java/
+│   │    └──── base/             # REST controllers
+│   │          ├── listeners/    # Data Transfer Objects
+│   │          ├── rough/        # Domain models
+│   │          ├── testCases/    # Data access layer
+│   │          └── utilities/    # Business logic
+│   └── resources/
+│       └── excel/               # Application configuration
+│   │       ├── properties/      # Data Transfer Objects
+│   │       ├── runner/
+│-- pom.xml                      # Maven configuration
+```
 ### Project URL
 ```https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login```
 
