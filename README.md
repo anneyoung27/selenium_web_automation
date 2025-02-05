@@ -25,7 +25,7 @@ Use the following:
 
 ## Installation
 1. Clone this repository:<br />
-   `git clone https://github.com/yourusername/selenium-web-automation.git`
+   `git clone https://github.com/anneyoung27/selenium-web-automation.git`
 
 2. Navigate to the project directory:<br />
    `cd selenium-web-automation`
