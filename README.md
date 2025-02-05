@@ -44,9 +44,9 @@ src/
 ### UI Test
 The UI tests cover the functionality of the website, focusing on key features such as:
 - Login
-> Bank Manager Login
-> Add Customer
-> Open Account
+  - Bank Manager Login
+  - Add Customer
+  - Open Account
 
 ## Installation
 1. Clone this repository:<br />
