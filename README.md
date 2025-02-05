@@ -23,6 +23,10 @@ Use the following:
 - TestNG Framework
 - ExtentReport
 
+## Project Structure
+### Project URL
+```https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login```
+
 ## Installation
 1. Clone this repository:<br />
    `git clone https://github.com/anneyoung27/selenium-web-automation.git`
