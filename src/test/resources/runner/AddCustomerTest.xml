@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TC-002 - Add Customer Test">
+    <listeners>
+        <listener class-name="listeners.CustomListeners"/>
+    </listeners>
+    <test name="Bank Manager Login Test">
+        <classes>
+            <class name="testCases.BankManagerLogInTest"/>
+        </classes>
+    </test>
+
+    <test name="Add Customer Test">
+        <classes>
+            <class name="testCases.AddCustomerTest"/>
+        </classes>
+    </test>
+</suite>
