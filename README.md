@@ -24,12 +24,12 @@ Use the following:
 - ExtentReport
 
 ## Installation
-1. Clone this repository:
+1. Clone this repository:<br />
    `git clone https://github.com/yourusername/selenium-web-automation.git`
 
-2. Navigate to the project directory:
+2. Navigate to the project directory:<br />
    `cd selenium-web-automation`
 
-3. Install dependencies using Maven:
+3. Install dependencies using Maven:<br />
    `mvn clean install`
 
