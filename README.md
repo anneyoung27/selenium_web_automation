@@ -45,8 +45,8 @@ src/
 The UI tests cover the functionality of the website, focusing on key features such as:
 - Login
   - Bank Manager Login
-  - Add Customer
-  - Open Account
+      - Add Customer
+      - Open Account
  
 ### 3. Viewwing the reports
 The test reports can be found in:
