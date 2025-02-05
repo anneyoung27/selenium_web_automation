@@ -26,11 +26,13 @@ Use the following:
 ## Installation
 1. Clone this repository:
    
-`git clone https://github.com/yourusername/selenium-web-automation.git`
+   `git clone https://github.com/yourusername/selenium-web-automation.git`
 
 2. Navigate to the project directory:
-`cd selenium-web-automation`
+   
+   `cd selenium-web-automation`
 
 3. Install dependencies using Maven:
-`mvn clean install`
+   
+   `mvn clean install`
 
