@@ -24,7 +24,7 @@ The purpose of this project is to implement what I have learned in web automatio
 
 ## Project Structure
 ```
-reports/
+reports/                         # Reports
 │
 src/
 ├── test/
