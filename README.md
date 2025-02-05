@@ -66,3 +66,6 @@ The report will be generated upon execution and will include screenshots if any 
 3. Install dependencies using Maven:<br />
    `mvn clean install`
 
+4. Run<br />
+   `src/test/resources/runner`
+
