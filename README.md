@@ -27,16 +27,16 @@ The purpose of this project is to implement what I have learned in web automatio
 src/
 ├── test/
 │   ├── java/
-│   │    └──── base/             # REST controllers
-│   │          ├── listeners/    # Data Transfer Objects
-│   │          ├── rough/        # Domain models
-│   │          ├── testCases/    # Data access layer
-│   │          └── utilities/    # Business logic
+│   │    └──── base/             # Page Object Model classes
+│   │          ├── listeners/    # TestNG listeners for logging and reporting
+│   │          ├── rough/        # Experimental test scripts
+│   │          ├── testCases/    # Main test case implementations
+│   │          └── utilities/    # Utility classes for test data and helpers
 │   └── resources/
-│       └── excel/               # Application configuration
-│   │       ├── properties/      # Data Transfer Objects
-│   │       ├── runner/
-│-- pom.xml                      # Maven configuration
+│       └── excel/               # Test data stored in Excel format
+│   │       ├── properties/      # Configuration properties files
+│   │       └── runner/
+└── pom.xml                      # Maven configuration
 ```
 ### Project URL
 ```https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login```
