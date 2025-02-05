@@ -48,9 +48,9 @@ The UI tests cover the functionality of the website, focusing on key features su
       - Add Customer
       - Open Account
  
-### 3. Viewwing the reports
+### 3. Viewing the reports
 The test reports can be found in:
-```./reports```
+```./reports```<br />
 The report will be generated upon execution and will include screenshots if any failures occur during the testing process.
 
 ## Installation
