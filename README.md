@@ -20,6 +20,7 @@ The purpose of this project is to implement what I have learned in web automatio
 - Apache Maven
 - Selenium
 - TestNG Framework
+- Log4j2
 - ExtentReport
 
 ## Project Structure
