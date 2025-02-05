@@ -41,6 +41,13 @@ src/
 ### Project URL
 ```https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login```
 
+### UI Test
+The UI tests cover the functionality of the website, focusing on key features such as:
+- Login
+> Bank Manager Login
+> Add Customer
+> Open Account
+
 ## Installation
 1. Clone this repository:<br />
    `git clone https://github.com/anneyoung27/selenium-web-automation.git`
