@@ -7,7 +7,6 @@ This project is a web automation framework using Selenium WebDriver. It automate
 The purpose of this project is to implement what I have learned in web automation testing using Selenium with Java programming language.
 
 ## Key Features
-- Page Object Model (POM) for maintainability
 - TestNG for test execution and reporting
 - Maven for dependency management
 - Configurable test execution using Y and N run mode
