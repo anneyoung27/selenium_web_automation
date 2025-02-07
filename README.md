@@ -29,7 +29,7 @@ reports/                         # Reports
 src/
 ├── test/
 │   ├── java/
-│   │    └──── base/             # Page Object Model classes
+│   │    └──── base/             # Guide for testing process and helpers 
 │   │          ├── listeners/    # TestNG listeners for logging and reporting
 │   │          ├── rough/        # Experimental test scripts
 │   │          ├── testCases/    # Main test case implementations
