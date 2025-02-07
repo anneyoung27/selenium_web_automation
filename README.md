@@ -1,7 +1,7 @@
 # Web Automation with Selenium
 
 ## What's in this repository?
-This project is a web automation framework using Selenium WebDriver. It automates web interactions for testing purposes, ensuring the functionality of web applications.
+This project is a web automation using Selenium WebDriver. It automates web interactions for testing purposes, ensuring the functionality of web applications.
 
 ## What's the purpose of this project?
 The purpose of this project is to implement what I have learned in web automation testing using Selenium with Java programming language.
