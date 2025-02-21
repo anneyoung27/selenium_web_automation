@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BM-005 - Customer Page List Test">
+    <listeners>
+        <listener class-name="listeners.CustomListeners"/>
+    </listeners>
+
+    <test name="Bank Manager Login Test">
+        <classes>
+            <class name="testCases.BankManager.BankManagerLogInTest"/>
+        </classes>
+    </test>
+
+    <test name="Customer Page List">
+        <classes>
+            <class name="testCases.BankManager.CustomerPageListTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TC-005 - Verify Customer Balance Currency">
+    <listeners>
+        <listener class-name="listeners.CustomListeners"/>
+    </listeners>
+
+    <test name="Customer Login Test">
+        <classes>
+            <class name="testCases.Customer.CustomerLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Customer Page Test">
+        <classes>
+            <class name="testCases.Customer.CustomerProfilePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Check Customer Currency Test">
+        <classes>
+            <class name="testCases.Customer.CheckCustomerCurrencyTest"/>
+        </classes>
+    </test>
+</suite>

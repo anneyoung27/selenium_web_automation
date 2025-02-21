@@ -56,6 +56,34 @@ public class TestUtil extends TestBase {
         return data;
     }
 
+    @DataProvider(name = "vd")
+    public Object[][] searchValidData() {
+        return new Object[][] {
+                { "Harry" },
+                { "Dumbledore" },
+                { "E89898" }
+        };
+    }
+
+    @DataProvider(name = "id")
+    public Object[][] searchInvalidData() {
+        return new Object[][] {
+                { "$$" },
+                { "AZ" },
+                { "XX" },
+                { "E999*?" }
+        };
+    }
+
+    @DataProvider(name = "deleteData")
+    public Object[][] deleteSpecificData() {
+        return new Object[][] {
+                { "Harry" },
+                { "E55555" },
+                { "Dumbledore" }
+        };
+    }
+
     public static boolean isTestRunnable(String testName, ExcelReader excel){
         String sheetName="TestSuite"; // sheet name
         int rows = excel.getRowCount(sheetName);
@@ -69,5 +97,4 @@ public class TestUtil extends TestBase {
         }
         return false;
     }
-
 }

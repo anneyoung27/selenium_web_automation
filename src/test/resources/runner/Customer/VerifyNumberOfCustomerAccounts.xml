@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TC-004 - Verify Number of Customer Accounts">
+    <listeners>
+        <listener class-name="listeners.CustomListeners"/>
+    </listeners>
+
+    <test name="Customer Login Test">
+        <classes>
+            <class name="testCases.Customer.CustomerLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Customer Page Test">
+        <classes>
+            <class name="testCases.Customer.CustomerProfilePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Number of customer account check Test">
+        <classes>
+            <class name="testCases.Customer.CountCustomerAccountTest"/>
+        </classes>
+    </test>
+</suite>

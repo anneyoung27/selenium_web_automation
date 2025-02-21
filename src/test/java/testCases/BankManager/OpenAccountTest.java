@@ -1,4 +1,4 @@
-package testCases;
+package testCases.BankManager;
 
 import base.TestBase;
 import org.openqa.selenium.Alert;
@@ -11,7 +11,7 @@ import java.util.Hashtable;
 
 public class OpenAccountTest extends TestBase {
 
-    @Test(dataProviderClass = TestUtil.class, dataProvider = "dp")
+    @Test(dataProviderClass = TestUtil.class, dataProvider = "dp", description = "To validate if User can add an open account to customer")
     public void openAccountTest(Hashtable<String, String> data)  {
         log.info("Inside Open Account Test");
 
@@ -21,7 +21,7 @@ public class OpenAccountTest extends TestBase {
 
         click("openAccount_CSS");
         select("customer_CSS", data.get("Customer"));
-        select("currency_CSS", data.get("Currency"));
+        select("currency_XPATH", data.get("Currency"));
         click("process_CSS");
 
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());

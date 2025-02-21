@@ -10,8 +10,8 @@ The purpose of this project is to implement what I have learned in web automatio
 - TestNG for test execution and reporting
 - Maven for dependency management
 - Configurable test execution using Y and N run mode
-- Logging and reporting capabilities
-- Data Driven Testing (DDT)
+- Console logging and reporting capabilities
+- Data Driven Testing (DDT) with Excel and @DataProvider
 - Extent Reports for test reporting
 
 ## Technologies
@@ -49,7 +49,22 @@ The UI tests cover the functionality of the website, focusing on key features su
   - Bank Manager Login
       - Add Customer
       - Open Account
- 
+      - Search Functionality
+      - Customer Page List
+      - Delete Functionality
+  - Customer Login 
+      - Customer Login
+      - Customer Profile Page
+      - Count Customer Account
+      - Check Customer Currency
+      - Check Customer Current Balance
+      - Customer Account Check
+      - Customer Logout
+- Transactions
+  - Customer Deposit
+  - Customer Withdraw
+  - Customer Transaction History
+
 ### 3. Viewing the reports
 The test reports can be found in:<br />
 ```./reports```<br />

@@ -13,12 +13,12 @@ import utilities.ExtentManager;
 import utilities.TestUtil;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class CustomListeners extends TestBase implements ITestListener {
 
-    static Date d = new Date();
-    static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
+    static String fileName = "Extent_" + new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date()) + ".html";
 
     private static final ExtentReports extentReports = ExtentManager.createInstance("./reports/"+fileName);
     public  static ExtentTest extentTest;
@@ -61,7 +61,7 @@ public class CustomListeners extends TestBase implements ITestListener {
 
         try {
             extentTest.log(Status.FAIL, logText);
-           screenShootPath = TestUtil.captureScreenshot(methodName);
+            screenShootPath = TestUtil.captureScreenshot(methodName);
 
             MediaEntityBuilder.createScreenCaptureFromPath(screenShootPath).build();
             extentTest.fail("Screenshot of failure:",
@@ -70,13 +70,19 @@ public class CustomListeners extends TestBase implements ITestListener {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     @Override
     public void onFinish(ITestContext context) {
-        if(extentReports != null){
-            extentReports.flush();
+        try {
+            if(extentReports != null){
+                extentReports.flush();
+                log.info("Report flush successfully!");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
+
     }
 }

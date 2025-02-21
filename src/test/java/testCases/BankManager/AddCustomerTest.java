@@ -1,4 +1,4 @@
-package testCases;
+package testCases.BankManager;
 
 import base.TestBase;
 import org.openqa.selenium.Alert;
@@ -12,7 +12,7 @@ import java.util.Hashtable;
 
 public class AddCustomerTest extends TestBase {
 
-    @Test(dataProviderClass = TestUtil.class, dataProvider = "dp")
+    @Test(dataProviderClass = TestUtil.class, dataProvider = "dp", description = "To verify if User can register new customer as an Bank Manager")
     public void addCustomerTest(Hashtable<String, String> data)  {
         log.info("Inside Add New Customer Test");
 
