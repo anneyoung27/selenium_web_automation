@@ -109,7 +109,10 @@
             <artifactId>poi-scratchpad</artifactId>
             <version>5.4.0</version>
         </dependency>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a4fe888abb50b2529de783c5ba747f39c878a9b
     </dependencies>
 
     <build>
