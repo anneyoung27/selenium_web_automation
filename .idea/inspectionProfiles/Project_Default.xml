@@ -11,15 +11,18 @@
       <option name="ignoredModules">
         <list>
           <option value="DataDrivenFramework" />
+          <option value="WebAutomation" />
         </list>
       </option>
       <option name="ignoredPackages">
         <list>
           <option value="com.fasterxml.jackson.core:jackson-databind:2.10.3" />
+          <option value="com.fasterxml.jackson.core:jackson-databind:2.10.3" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
+          <option value="Not exploitable" />
           <option value="Not exploitable" />
         </list>
       </option>

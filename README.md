@@ -10,9 +10,11 @@ The purpose of this project is to implement what I have learned in web automatio
 - TestNG for test execution and reporting
 - Maven for dependency management
 - Configurable test execution using Y and N run mode
-- Console logging and reporting capabilities
+- Console logging
 - Data Driven Testing (DDT) with Excel and @DataProvider
 - Extent Reports for test reporting
+- Read config from properties file
+- Screenshot test case (Fail scenario)
 
 ## Technologies
 - Java 21
